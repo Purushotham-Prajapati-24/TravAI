@@ -311,7 +311,7 @@ body{
     text-align: center;
   }
   .page6 h2{
-    font-size: 7vw;
+    font-size: 5vw;
     margin: 2vw 2vw;
     color: white;
   }
@@ -319,7 +319,8 @@ body{
   .page6 h1{
     margin: 2vw 2vw;
   }
-  .page6 #mail{
+  .page6 #mail, .page6 h2 span:nth-child(1) 
+    {
     color: #FC626A;
   }
   .page6 #mail:hover{
@@ -472,4 +473,11 @@ body{
 .textdaba{
     width: 40vw;
     text-align: center;
+}
+
+footer p{
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+    margin-top: 2vw;
 }
