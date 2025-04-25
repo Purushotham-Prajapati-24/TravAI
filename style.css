@@ -1,0 +1,475 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Fonts/Gilroy-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+body{
+    overflow: hidden;
+    /* #8bd878 */
+    /* #78d8ab */
+    background: linear-gradient(rgb(47, 47, 59),#10101E);
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: -5vw;
+}
+
+.nav-bar{
+    padding: 3vw 4vw;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    height: 5vw;
+    display: flex;
+    gap: 5vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10vw;
+    width:60%;
+    margin-left: 21%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 4vw;
+    /* overflow: hidden;
+    position: sticky; */
+    /* background-color: red; */
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.3vh;
+    
+}
+.img{
+    height: 5vh;
+    width: 5vh;
+    /* background-color: red; */
+    border-radius: 2vw;
+    overflow: hidden;
+}
+
+
+.img img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.nav-bar a:hover{
+    background: rgba(255, 255, 255, 0.432);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3vw;
+    /* padding: 0.5vh 0.5vh; */
+
+}
+.content{
+    /* background-color: red; */
+    height: fit-content;
+    width: 100%;
+    /* margin: 0% 25%; */
+    margin-top: 6vw;
+    padding-top: 3vw;
+    overflow: hidden;
+}
+.content .h1con{
+    font-weight: 900;
+    font-size: 7vw;
+    background: linear-gradient(90deg, #F2F3F0, #C1C0C7);
+    -webkit-background-clip: text;
+    text-align: center;
+    /* -webkit-text-fill-color: transparent; */
+}
+.content p{
+    text-align: center;
+    font-size: 2vw;
+    
+}
+/* .loader{
+    pos[ition: absolute;
+    background-color: black;
+    z-index: 9999;
+    height: 100%;
+    width: 100%;
+} */
+ #aibtn{
+    padding: 2vw 4vw;
+    background-color: transparent;
+    border: 2px solid rgb(61, 57, 57);
+    border-radius: 7vw;
+    margin-top: 4vw;
+    margin-left: 42%;
+    font-size: 2.3vh;
+ }
+ #aibtn:hover{
+    background: linear-gradient(90deg, #daa6ee, #C1C0C7);
+    color:#262633;
+    font-weight: 900;
+    cursor: pointer;
+ }
+ .content h1 span{
+   color: #fd7a23af;
+   /* text-shadow: 2px 2px 3px rgb(165, 196, 206); */
+    font-weight: 800;
+    
+    
+ }
+ .page2{
+    height: 100vh;
+    width: 100%;
+    /* background:linear-gradient() */
+    position: relative;
+ }
+
+ .text-box{
+    width: 100%;
+    overflow: hidden;
+    /* background: rgb(204, 24, 24); */
+    padding: 10px 0;
+    position: relative;
+    background-color: white;
+    
+ }
+ .text-box h2{
+    
+    display: inline-block;
+    white-space: nowrap;
+    color: rgb(0, 0, 0);
+    /* -webkit-text-stroke: 1px white; */
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-weight: 800;
+    margin-right: 10px;
+    animation-name: animes;
+    animation-duration: 120s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes animes {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 20px));
+    }
+    
+}
+.video-box{
+    margin:4vw 0;
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    /* border-radius: 20vh; */
+}
+.video-box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* border-radius: 2vh; */
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    
+}
+.page3 .p3box{
+    margin-top: 5vw;
+    height: fit-content;
+    width: 68vw;
+    overflow: hidden;
+    margin:4vw 29%;
+    /* background-color: red; */
+}
+.page3 h1{
+    
+    font-size: 7vw;
+}
+
+.page4{
+    height: 100vh;
+    width: 100%;
+}
+.page4 h1{
+    
+    font-size: 7vw;
+}
+.page4 .p4box{
+    margin-top: 3vw;
+    height: fit-content;
+    width: 45vw;
+    overflow: hidden;
+    margin:3vw 28%;
+    /* background-color: red; */
+}
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    margin-top: 6vw;
+}
+.page5 h1{
+    
+    font-size: 7vw;
+}
+.page5 .p5box{
+    margin-top: 3vw;
+    height: fit-content;
+    width: 45vw;
+    overflow: hidden;
+    margin:3vw 33%;
+    /* background-color: red; */
+}
+.page6{
+    height: 100vh;
+    width: 100%;
+}
+.page6 h1{
+    
+    font-size: 7vw;
+}
+.page6 .p6box{
+    margin-top: 3vw;
+    height: fit-content;
+    width: 45vw;
+    overflow: hidden;
+    margin:3vw 28%;
+    /* background-color: red; */
+}
+.footer-box{
+    height: 85vh;
+    width: 90%;
+    background:linear-gradient(rgb(116, 115, 115),rgb(78, 74, 73));
+    margin-left: 5%;
+    border-radius: 2vw;
+    position: relative;
+    z-index: 99999;
+}
+.gallery-box{
+    height: 90vh;
+    width: 100%;
+    /* background-color: red; */
+    padding: 2vw 2vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.gallery-box1{
+    height: 22vw;
+    width: 18vw;
+    /* background-color: blue; */
+    border-radius: 2vh;
+    margin-right: 3vh;
+    margin-bottom: 2vh;
+    
+}
+.gallery-box1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius:2vh ;
+}
+
+  .page6{
+    height: 100vh;
+    width: 100%;
+    margin-top: 4.2vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .page6 .daba{
+    height: 42vw;
+    width: 80vw;
+    /* background-color: white */
+    border: 1px solid rgb(150, 133, 133);
+    border-radius: 2vh;
+  }
+  .page6 .daba{
+    font-size: 5vw;
+    text-align: center;
+  }
+  .page6 h2{
+    font-size: 7vw;
+    margin: 2vw 2vw;
+    color: white;
+  }
+
+  .page6 h1{
+    margin: 2vw 2vw;
+  }
+  .page6 #mail{
+    color: #FC626A;
+  }
+  .page6 #mail:hover{
+    text-decoration:line-through;
+  }
+  .page6 #instagram{
+    color:#F6BA53;
+  }
+  .page6 #instagram:hover{
+    text-decoration: line-through;
+  }
+  .page6 #linkedIn{
+    color: #51CDE7;
+  }
+  .page6 #linkedIn:hover{
+    text-decoration: line-through;
+  }
+ 
+  .weather-container {
+    margin: 4vw 4vw;
+    border: 1px solid white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    position: relative;
+  }
+  .weather-container span{
+    color: black;
+  }
+  h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #007BFF;
+  }
+  input[type="text"] {
+    color: black;
+    padding: 12px;
+    width: calc(100% - 90px);
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 10px;
+    font-family: gilroy;
+  }
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  #suggestions {
+    position: absolute;
+    background: #fff;
+    width: calc(100% - 80px);
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    top: 12vh;
+    z-index: 100;
+    color: black;
+  }
+  #suggestions div {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    color: black;
+  }
+  #suggestions div:hover {
+    background-color: #f2f2f2;
+  }
+  #weatherResult {
+    margin-top: 25px;
+  }
+  #weatherResult h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  #weatherResult p {
+    font-size: 16px;
+    margin: 6px 0;
+  }
+  #weatherResult img {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+  }
+  .recent {
+    margin-top: 15px;
+  }
+  .recent span {
+    background: #e1e1e1;
+    padding: 6px 12px;
+    margin: 3px;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+ .page3 .p3contain {
+    width: 100%;
+    height: fit-content;
+    /* background-color: blue; */
+    display: flex;
+ }
+ .sosdaba{
+    background-color: red;
+    height: 15vw;
+    width: 15vw;
+    border-radius: 20vw;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* right:2%; */
+ }
+ 
+
+.sosdaba:hover{
+    transform: scale(1.07);
+    transition-timing-function: all linear 0.2;
+    cursor: pointer;
+}
+.sosdaba p{
+    font-size: 3vw;
+    margin: 1vw 1vw;
+    color: white;
+    font-weight: 800;
+}
+.sos-bo{
+   /* background-color: green; */
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 2vw;
+   flex-direction: column;
+   align-items: center;
+}
+.textdaba{
+    width: 40vw;
+    text-align: center;
+}
